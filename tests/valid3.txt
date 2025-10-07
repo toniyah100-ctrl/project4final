@@ -1,0 +1,6 @@
+// Valid: list of real with consistent elements
+function main returns integer;
+    xs: list of real is (1.0, 2.0, 3.0);
+begin
+    0;
+end;

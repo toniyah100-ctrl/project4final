@@ -1,0 +1,5 @@
+// Character Literals Cannot be Compared to Numeric Expressions
+function main returns integer;
+begin
+    'a' < 1;
+end;

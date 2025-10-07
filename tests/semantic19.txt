@@ -1,0 +1,6 @@
+// Fold Requires A Numeric List
+function main returns integer;
+    letters: list of character is ('a','b');
+begin
+    fold left + (letters) endfold;
+end;

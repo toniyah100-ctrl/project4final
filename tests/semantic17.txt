@@ -1,0 +1,6 @@
+// List Subscript Must Be Integer
+function main returns integer;
+    xs: list of integer is (1, 2, 3);
+begin
+    xs['a'];
+end;
