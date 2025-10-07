@@ -1,0 +1,5 @@
+// Arithmetic Operator Requires Numeric Types
+function main returns integer;
+begin
+    'a' + 1;
+end;

@@ -1,0 +1,6 @@
+// List Type Does Not Match Element Types (decl says list of real, elems are integers)
+function main returns integer;
+    numbers: list of real is (1, 2, 3);
+begin
+    0;
+end;

@@ -1,0 +1,6 @@
+// Illegal Narrowing Variable Initialization
+function main returns integer;
+    value: integer is 4.5;
+begin
+    0;
+end;

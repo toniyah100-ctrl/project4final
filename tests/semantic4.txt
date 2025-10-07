@@ -1,0 +1,6 @@
+// List Element Types Do Not Match (mixed int/real)
+function main returns integer;
+    numbers: list of integer is (1, 2.5);
+begin
+    0;
+end;

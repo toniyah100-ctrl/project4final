@@ -1,0 +1,5 @@
+// Case Types Mismatch (cases produce different types)
+function main returns integer;
+begin
+    switch (1) { case 1: 'x'; case 2: 3; }
+end;

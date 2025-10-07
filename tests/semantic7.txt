@@ -1,0 +1,5 @@
+// When Types Mismatch
+function main returns integer;
+begin
+    when 1, 1.0: 0;
+end;

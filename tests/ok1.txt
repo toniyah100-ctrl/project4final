@@ -1,0 +1,6 @@
+// No errors: simple int arithmetic
+function main returns integer;
+    x: integer is 1;
+begin
+    x + 2;
+end;

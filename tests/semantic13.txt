@@ -1,0 +1,6 @@
+// Undeclared Scalar and List usage
+function main returns integer;
+begin
+    name;          // should trigger Undeclared Scalar name
+    values[1];     // should trigger Undeclared List values
+end;

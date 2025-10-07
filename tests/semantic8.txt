@@ -1,0 +1,5 @@
+// Switch Expression Not Integer
+function main returns integer;
+begin
+    switch ('c') { case 1: 0; }
+end;

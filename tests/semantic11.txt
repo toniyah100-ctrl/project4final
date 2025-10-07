@@ -1,0 +1,5 @@
+// Remainder Operator Requires Integer Operands
+function main returns integer;
+begin
+    4 % 4.8;
+end;
